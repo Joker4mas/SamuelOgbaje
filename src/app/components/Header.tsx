@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { Bold, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
@@ -41,7 +41,7 @@ const Header: React.FC<HeaderProps> = ({
                   fontFamily="Arial, Helvetica, sans-serif"
                   fontSize="32"
                   fill="white"
-                  font-weight="bold"
+                  fontWeight="Bold"
                 >
                   Samuel
                 </text>
@@ -51,7 +51,7 @@ const Header: React.FC<HeaderProps> = ({
                   fontFamily="Arial, Helvetica, sans-serif"
                   fontSize="32"
                   fill="green"
-                  font-weight={Bold}
+                  fontWeight="Bold"
                 >
                   Portfolio
                 </text>
