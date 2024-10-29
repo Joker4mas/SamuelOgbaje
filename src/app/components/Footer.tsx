@@ -14,7 +14,7 @@ import {
 const Footer: React.FC = () => {
   return (
     <>
-      <div className="flex flex-col items-center md:mx-24 md:p-8 ">
+      <div className="flex flex-col items-center md:mx-16 md:p-8 lg:mx-24">
         <div className="flex flex-col md:flex-row gap-8 items-center w-full justify-between">
           <nav className="flex flex-col  items-center gap-4 mt-4">
             <motion.a
@@ -51,21 +51,25 @@ const Footer: React.FC = () => {
             </motion.a>
           </nav>
           <div className="flex flex-col gap-4">
-            <motion.span
-              whileHover={{ scale: 1.3, originX: 0, color: "#f8e112" }}
-              transition={{ type: "spring", stiffness: 300 }}
-              className="flex items-center gap-2 cursor-pointer"
-            >
-              <FaSquarePhone size="32" />
-              <p>+2348069822444</p>
-            </motion.span>
-            <motion.span
-              whileHover={{ scale: 1.3, originX: 0, color: "#f8e112" }}
-              transition={{ type: "spring", stiffness: 300 }}
-              className="flex items-center gap-2 cursor-pointer"
-            >
-              <FaEnvelopeCircleCheck size="32" /> samuelogbaje@gmail.com
-            </motion.span>
+            <a href="tel:+2348069822444">
+              <motion.span
+                whileHover={{ scale: 1.3, originX: 0, color: "#f8e112" }}
+                transition={{ type: "spring", stiffness: 300 }}
+                className="flex items-center gap-2 cursor-pointer"
+              >
+                <FaSquarePhone size="32" />
+                <p>+2348069822444</p>
+              </motion.span>
+            </a>
+            <a href="mailto:samuelogbaje@gmail.com">
+              <motion.span
+                whileHover={{ scale: 1.3, originX: 0, color: "#f8e112" }}
+                transition={{ type: "spring", stiffness: 300 }}
+                className="flex items-center gap-2 cursor-pointer"
+              >
+                <FaEnvelopeCircleCheck size="32" /> samuelogbaje@gmail.com
+              </motion.span>
+            </a>
           </div>
           <div className="socials flex gap-8 md:flex-row">
             <motion.a

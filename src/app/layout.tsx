@@ -1,10 +1,8 @@
 import type { Metadata } from "next";
-// import localFont from "next/font/local";
 import "./globals.css";
-// import Image from "next/image";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import { Nunito_Sans, Poppins } from "next/font/google";
+import { Poppins } from "next/font/google";
 
 export const poppins = Poppins({
   subsets: ["latin"],
