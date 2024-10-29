@@ -38,8 +38,8 @@ const Header: React.FC<HeaderProps> = ({
                 <text
                   x="10"
                   y="40"
-                  font-family="Arial, Helvetica, sans-serif"
-                  font-size="32"
+                  fontFamily="Arial, Helvetica, sans-serif"
+                  fontSize="32"
                   fill="white"
                   font-weight="bold"
                 >
@@ -48,7 +48,7 @@ const Header: React.FC<HeaderProps> = ({
                 <text
                   x="130"
                   y="40"
-                  font-family="Arial, Helvetica, sans-serif"
+                  fontFamily="Arial, Helvetica, sans-serif"
                   fontSize="32"
                   fill="green"
                   font-weight={Bold}
