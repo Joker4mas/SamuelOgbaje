@@ -11,6 +11,7 @@ function page() {
       <div className="p-2 items-center text-center  md:p-8 md:ml-24">
         <h1 className="text-3xl font-bold text-center md:text-start my-4">
           Hello 👋, <br />
+          <br />
           I’m Samuel Ogbaje, <br />
         </h1>
         <TextAnimateHero />

@@ -22,7 +22,7 @@ const navItems = [
   { label: "About", href: "/about" },
   { label: "Contact", href: "/contact" },
   { label: "Projects", href: "/project" },
-  { label: "Resume", href: "/resume" },
+  // { label: "Resume", href: "/resume" },
 ];
 
 export default function RootLayout({

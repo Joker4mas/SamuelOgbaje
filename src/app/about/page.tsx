@@ -10,7 +10,7 @@ function page() {
       <div className="text-center p-8 text-gray-400  mx-auto ">
         <h2 className="my-2 text-2xl">Hi, I’m Samuel Ogbaje! 👋</h2>
         <div className="flex flex-col md:flex-row gap-4 items-center">
-          <p className="text-wrap text-md leading-8 p-12 w-2/4">
+          <p className="text-wrap text-md leading-8 md:p-12 md:w-2/4 ">
             As a passionate frontend developer aspiring toward full-stack
             expertise, I specialize in creating exceptional user experiences
             through responsive, intuitive interfaces. Proficient in HTML, CSS,

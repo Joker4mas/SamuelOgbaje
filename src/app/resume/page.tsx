@@ -1,3 +1,4 @@
+"use client";
 import CVDownloadButton from "../components/CVDownload";
 
 function page() {
@@ -6,8 +7,8 @@ function page() {
       <h1 className="my-8">Welcome to my website!</h1>
       <p className="mb-4">You can get my resume</p>
       <CVDownloadButton
-        cvUrl="@FrontendEngineer.pdf"
-        fileName="Samuel's_CV.pfd"
+        fileName="frontendEngineer.pdf"
+        cvUrl="../assets/frontendEngineer.pdf"
       />
     </div>
   );
