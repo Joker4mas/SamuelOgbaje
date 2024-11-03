@@ -7,7 +7,6 @@ import {
   FaSquareGithub,
   FaTwitter,
   FaSquarePhone,
-  FaSquareUpwork,
   FaEnvelopeCircleCheck,
 } from "react-icons/fa6";
 
@@ -73,7 +72,7 @@ const Footer: React.FC = () => {
           </div>
           <div className="socials flex gap-8 md:flex-row">
             <motion.a
-              whileHover={{ scale: 1.5, originY: 0, color: "#f8e112" }}
+              whileHover={{ scale: 1.3, originY: 0, color: "#f8e112" }}
               transition={{ type: "spring" }}
               href="https://www.linkedin.com/in/samuel-ogbaje"
               target="_blank"
@@ -81,7 +80,7 @@ const Footer: React.FC = () => {
               <FaLinkedin size="32" />
             </motion.a>
             <motion.a
-              whileHover={{ scale: 1.5, originY: 0, color: "#f8e112" }}
+              whileHover={{ scale: 1.3, originY: 0, color: "#f8e112" }}
               transition={{ type: "spring" }}
               href="https://github.com/Joker4mas"
               target="_blank"
@@ -89,21 +88,12 @@ const Footer: React.FC = () => {
               <FaSquareGithub size="32" />
             </motion.a>
             <motion.a
-              whileHover={{ scale: 1.5, originY: 0, color: "#f8e112" }}
+              whileHover={{ scale: 1.3, originY: 0, color: "#f8e112" }}
               transition={{ type: "spring" }}
-              href=""
+              href="https://x.com/Joker4mas"
               target="_blank"
             >
               <FaTwitter size="32" />
-            </motion.a>
-            <motion.a
-              whileHover={{ scale: 1.5, originY: 0, color: "#f8e112" }}
-              transition={{ type: "spring", stiffness: 300 }}
-              href="https://x.com/Joker4mas"
-              target="_blank"
-              className="h-32"
-            >
-              <FaSquareUpwork size="32" />
             </motion.a>
           </div>
         </div>

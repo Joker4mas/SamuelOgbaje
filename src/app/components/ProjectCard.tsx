@@ -18,8 +18,6 @@ const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
           src={project.imageUrl}
           alt={project.title}
           className="w-fit p-4 h-fit object-cover transition-transform duration-300 hover:scale-105"
-          // width={100}
-          // height={100}
         />
       </div>
       <div className="p-4">
