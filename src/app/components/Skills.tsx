@@ -2,20 +2,13 @@
 import { motion } from "framer-motion";
 import {
   FaCss3,
-  FaGitAlt,
-  FaGithub,
   FaHtml5,
   FaJs,
   FaNodeJs,
   FaReact,
   FaVuejs,
 } from "react-icons/fa6";
-import {
-  RiBallPenFill,
-  RiFirebaseFill,
-  RiNextjsFill,
-  RiSlackFill,
-} from "react-icons/ri";
+import { RiFirebaseFill, RiNextjsFill } from "react-icons/ri";
 
 function Skills() {
   return (

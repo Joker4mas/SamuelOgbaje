@@ -22,7 +22,7 @@ function page() {
             technologies and database management. My goal is to create
             comprehensive, end-to-end solutions that make a real impact.
             <br />
-            I'm committed to continuous learning and building applications that
+            I`m committed to continuous learning and building applications that
             users love, always eager to tackle new challenges in this dynamic
             field
           </p>
